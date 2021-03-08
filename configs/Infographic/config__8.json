@@ -1,0 +1,223 @@
+{
+  "layout": {
+    "definition": [
+      {
+        "type": "column",
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "width": 100,
+        "content": [
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 15.034420289855072,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "006662553919221992-1"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "006662553919221992-1"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 62.93746645195921,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "006662553919221992-2"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "006662553919221992-2"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 22.028113258185726,
+            "width": 59.15915915915916,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "006662553919221992-3"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "006662553919221992-3"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "dijits": [
+    {
+      "id": "006662553919221992-1",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 20,
+          "textColor": "#282828"
+        },
+        "text": "Tipo de Válvulas"
+      }
+    },
+    {
+      "id": "006662553919221992-2",
+      "type": "chart",
+      "visible": true,
+      "config": {
+        "data": {
+          "mode": "feature",
+          "type": "column",
+          "clusterField": "Tipo",
+          "valueFields": [
+            "Diametro",
+            "Presion"
+          ],
+          "sortOrder": {
+            "isAsc": true,
+            "field": "Tipo"
+          }
+        },
+        "display": {
+          "backgroundColor": "#ffffff",
+          "seriesStyle": {
+            "type": "series",
+            "styles": [
+              {
+                "style": {
+                  "color": [
+                    "#087e92"
+                  ]
+                },
+                "name": "Presion",
+                "label": "Presión  (Bar)"
+              },
+              {
+                "style": {
+                  "color": [
+                    "#68d2e0"
+                  ]
+                },
+                "name": "Diametro",
+                "label": "Diámetro  (mm)"
+              }
+            ]
+          },
+          "legend": {
+            "textStyle": {
+              "color": "#000000",
+              "fontSize": 12
+            },
+            "show": false
+          },
+          "displayRange": "AUTO",
+          "xAxis": {
+            "textStyle": {
+              "color": "#000000",
+              "fontSize": 12
+            },
+            "show": true,
+            "format": {
+              "digitSeparator": false
+            }
+          },
+          "yAxis": {
+            "textStyle": {
+              "color": "#000000",
+              "fontSize": 12
+            },
+            "show": true,
+            "format": {
+              "type": "float",
+              "digitSeparator": true
+            }
+          },
+          "stack": "percent",
+          "tooltip": {
+            "confine": true,
+            "trigger": "axis"
+          },
+          "marks": {}
+        }
+      }
+    },
+    {
+      "id": "006662553919221992-3",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#FFF",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "top"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 16,
+          "textColor": "#282828"
+        },
+        "text": "Diferentes tipos de válvulas con la presión y diámetro."
+      }
+    }
+  ],
+  "name": "percentage_stacked_column",
+  "wid": "006662553919221992",
+  "dataSource": {
+    "dataSourceType": "DATA_SOURCE_FEATURE_LAYER_FROM_MAP",
+    "name": "Red_Abastecimiento - Válvulas",
+    "layerId": "Red_Abastecimiento_5315",
+    "useSelection": true,
+    "filterByExtent": "on"
+  }
+}

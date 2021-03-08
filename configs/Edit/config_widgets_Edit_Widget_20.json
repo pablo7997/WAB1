@@ -1,0 +1,694 @@
+{
+  "editor": {
+    "enableUndoRedo": true,
+    "toolbarVisible": true,
+    "toolbarOptions": {
+      "mergeVisible": true,
+      "cutVisible": true,
+      "reshapeVisible": true
+    },
+    "honorSettingOfWebmap": true,
+    "layerInfos": [
+      {
+        "featureLayer": {
+          "id": "Red_Abastecimiento_4172"
+        },
+        "disableGeometryUpdate": false,
+        "allowCreate": true,
+        "allowDelete": true,
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "OBJECTID",
+            "isEditable": false,
+            "visible": false
+          },
+          {
+            "fieldName": "Tipo",
+            "label": "Tipo de contador",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "IdContador",
+            "label": "ID contador",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Parcela",
+            "label": "ID parcela",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Fecha_Instalacion",
+            "label": "Fecha de instalación",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Orden_Trabajo",
+            "label": "Orden de trabajo",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Estado",
+            "label": "Estado",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Fecha_Creacion",
+            "label": "Fecha de creación",
+            "isEditable": false,
+            "visible": true
+          },
+          {
+            "fieldName": "Usuario_creacion",
+            "label": "Usuario de creación",
+            "isEditable": false,
+            "visible": true
+          },
+          {
+            "fieldName": "Fecha_Modificacion",
+            "label": "Fecha de modificación",
+            "isEditable": false,
+            "visible": true
+          },
+          {
+            "fieldName": "Usuario_Modificacion",
+            "label": "Usuario de modificación",
+            "isEditable": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "Red_Abastecimiento_4277"
+        },
+        "disableGeometryUpdate": false,
+        "allowCreate": true,
+        "allowDelete": true,
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "ID depósito",
+            "isEditable": false,
+            "visible": false
+          },
+          {
+            "fieldName": "Tipo",
+            "label": "Tipo de depósito",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Parcela",
+            "label": "ID parcela",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Dimension1",
+            "label": "Ancho (m)",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Dimension2",
+            "label": "Largo (m)",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Altura",
+            "label": "Altura (m)",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Capacidad",
+            "label": "Capacidad (m3)",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Fecha_Instalacion",
+            "label": "Fecha de instalación",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Orden_Trabajo",
+            "label": "Orden de trabajo",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Estado",
+            "label": "Estado",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Fecha_Creacion",
+            "label": "Fecha de creación",
+            "isEditable": false,
+            "visible": true
+          },
+          {
+            "fieldName": "Usuario_Creacion",
+            "label": "Usuario de creación",
+            "isEditable": false,
+            "visible": true
+          },
+          {
+            "fieldName": "Fecha_Modificacion",
+            "label": "Fecha de modificación",
+            "isEditable": false,
+            "visible": true
+          },
+          {
+            "fieldName": "Usuario_Modificacion",
+            "label": "Usuario de modificación",
+            "isEditable": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "Red_Abastecimiento_5315"
+        },
+        "disableGeometryUpdate": false,
+        "allowCreate": true,
+        "allowDelete": true,
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "OBJECTID",
+            "isEditable": false,
+            "visible": false
+          },
+          {
+            "fieldName": "Tipo",
+            "label": "Tipo de vávula",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Diametro",
+            "label": "Diámetro  (mm)",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Presion",
+            "label": "Presión  (Bar)",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Fecha_Instalacion",
+            "label": "Fecha de instalación",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Orden_Trabajo",
+            "label": "Orden de trabajo",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Estado",
+            "label": "Estado",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Fecha_Creacion",
+            "label": "Fecha de creación",
+            "isEditable": false,
+            "visible": true
+          },
+          {
+            "fieldName": "Usuario_Creacion",
+            "label": "Usuario de creación",
+            "isEditable": false,
+            "visible": true
+          },
+          {
+            "fieldName": "Fecha_Modificacion",
+            "label": "Fecha de modificación",
+            "isEditable": false,
+            "visible": true
+          },
+          {
+            "fieldName": "Usuario_Modificacion",
+            "label": "Usuario de modificación",
+            "isEditable": false,
+            "visible": true
+          },
+          {
+            "fieldName": "filename2",
+            "label": "Imagen",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Id_Valvula",
+            "label": "ID válvula",
+            "isEditable": true,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "Red_Abastecimiento_5613"
+        },
+        "disableGeometryUpdate": false,
+        "allowCreate": true,
+        "allowDelete": true,
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "ID pieza",
+            "isEditable": false,
+            "visible": false
+          },
+          {
+            "fieldName": "Tipo",
+            "label": "Tipo de junta",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Diametro",
+            "label": "Diámetro (mm)",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Presion",
+            "label": "Presión (Bar)",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Angulo",
+            "label": "Ángulo (Deg)",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Sistema_Enganche",
+            "label": "Sistema de unión",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Fecha_Instalacion",
+            "label": "Fecha de instalación",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Orden_Trabajo",
+            "label": "Orden de trabajo",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Estado",
+            "label": "Estado",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Fecha_Creacion",
+            "label": "Fecha de creación",
+            "isEditable": false,
+            "visible": true
+          },
+          {
+            "fieldName": "Usuario_Creacion",
+            "label": "Usuario de creación",
+            "isEditable": false,
+            "visible": true
+          },
+          {
+            "fieldName": "Fecha_Modificacion",
+            "label": "Fecha de modificación",
+            "isEditable": false,
+            "visible": true
+          },
+          {
+            "fieldName": "Usuario_Modificacion",
+            "label": "Usuario de modificación",
+            "isEditable": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "Red_Abastecimiento_9861"
+        },
+        "disableGeometryUpdate": false,
+        "allowCreate": true,
+        "allowDelete": true,
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "ID hidrante",
+            "isEditable": false,
+            "visible": false
+          },
+          {
+            "fieldName": "Tipo",
+            "label": "Tipo de hidrante",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Diametro",
+            "label": "Diámetro salida (mm)",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Presion",
+            "label": "Presión (Bar)",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Conduccion",
+            "label": "Diámetro entrada (mm)",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Fecha_Instalacion",
+            "label": "Fecha de instalación",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Orden_Trabajo",
+            "label": "Orden de trabajo",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Estado",
+            "label": "Estado",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Fecha_Creacion",
+            "label": "Fecha de creación",
+            "isEditable": false,
+            "visible": true
+          },
+          {
+            "fieldName": "Usuario_Creacion",
+            "label": "Usuario de creación",
+            "isEditable": false,
+            "visible": true
+          },
+          {
+            "fieldName": "Fecha_Modificacion",
+            "label": "Fecha de modificación",
+            "isEditable": false,
+            "visible": true
+          },
+          {
+            "fieldName": "Usuario_Modificacion",
+            "label": "Usuario de modificación",
+            "isEditable": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "Red_Abastecimiento_8707"
+        },
+        "disableGeometryUpdate": false,
+        "allowCreate": true,
+        "allowDelete": true,
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "ID bomba",
+            "isEditable": false,
+            "visible": false
+          },
+          {
+            "fieldName": "Tipo",
+            "label": "Tipo de bomba",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Presion_Sumnistrada",
+            "label": "Presión (Bar)",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Dimension1",
+            "label": "Ancho del depósito (m)",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Dimension2",
+            "label": "Largo del depósito (m)",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Altura",
+            "label": "Altura del depósito (m)",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Estado",
+            "label": "Estado",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Fecha_Creacion",
+            "label": "Fecha de creación",
+            "isEditable": false,
+            "visible": true
+          },
+          {
+            "fieldName": "Usuario_creacion",
+            "label": "Usuario de creación",
+            "isEditable": false,
+            "visible": true
+          },
+          {
+            "fieldName": "Fecha_Modificacion",
+            "label": "Fecha de modificación",
+            "isEditable": false,
+            "visible": true
+          },
+          {
+            "fieldName": "Usuario_Modificacion",
+            "label": "Usuario de modificación",
+            "isEditable": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "Red_Abastecimiento_651"
+        },
+        "disableGeometryUpdate": false,
+        "allowCreate": true,
+        "allowDelete": true,
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "ID acometida",
+            "isEditable": false,
+            "visible": false
+          },
+          {
+            "fieldName": "Tipo",
+            "label": "Tipo de acometida",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Diametro",
+            "label": "Diámetro (mm)",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Material",
+            "label": "Material",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Presion",
+            "label": "Presión (Bar)",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Fecha_Instalacion",
+            "label": "Fecha de instalación",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Orden_Trabajo",
+            "label": "Orden de trabajo",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Tipo_Servicio",
+            "label": "Tipo de servicio",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Parcela",
+            "label": "ID parcela",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Estado",
+            "label": "Estado",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Fecha_Creacion",
+            "label": "Fecha de creación",
+            "isEditable": false,
+            "visible": true
+          },
+          {
+            "fieldName": "Usuario_Creacion",
+            "label": "Usuario de creación",
+            "isEditable": false,
+            "visible": true
+          },
+          {
+            "fieldName": "Fecha_Modificacion",
+            "label": "Fecha de modificación",
+            "isEditable": false,
+            "visible": true
+          },
+          {
+            "fieldName": "Usuario_Modificacion",
+            "label": "Usuario de modificación",
+            "isEditable": false,
+            "visible": true
+          }
+        ]
+      },
+      {
+        "featureLayer": {
+          "id": "Red_Abastecimiento_502"
+        },
+        "disableGeometryUpdate": false,
+        "allowCreate": true,
+        "allowDelete": true,
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "ID tubería",
+            "isEditable": false,
+            "visible": false
+          },
+          {
+            "fieldName": "Tipo",
+            "label": "Tipo de tubería",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Diametro",
+            "label": "Diámetro (mm)",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Presion",
+            "label": "Presión (Bar)",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Fecha_Instalacion",
+            "label": "Fecha de instalación",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Orden_Trabajo",
+            "label": "Orden de trabajo",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Estado",
+            "label": "Estado",
+            "isEditable": true,
+            "visible": true
+          },
+          {
+            "fieldName": "Fecha_Creacion",
+            "label": "Fecha de creación",
+            "isEditable": false,
+            "visible": true
+          },
+          {
+            "fieldName": "Usuario_Creacion",
+            "label": "Usuario de creación",
+            "isEditable": false,
+            "visible": true
+          },
+          {
+            "fieldName": "Fecha_Modificacion",
+            "label": "Fecha de modificación",
+            "isEditable": false,
+            "visible": true
+          },
+          {
+            "fieldName": "Usuario_Modificacion",
+            "label": "Usuario de modificación",
+            "isEditable": false,
+            "visible": true
+          }
+        ]
+      }
+    ],
+    "useFilterEdit": false,
+    "autoApplyEditWhenGeometryIsMoved": false,
+    "snappingTolerance": 15,
+    "popupTolerance": 5,
+    "stickyMoveTolerance": 0,
+    "usingSaveButton": false
+  }
+}
